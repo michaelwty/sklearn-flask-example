@@ -18,4 +18,4 @@ pickle.dump(regr,open("model.pkl","wb"))
 
 #checking for error
 ans = regr.predict(X_test)
-print mean_squared_error(y_test, ans)
+print (mean_squared_error(y_test, ans))
